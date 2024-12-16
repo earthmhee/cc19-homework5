@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: aqua; */
+    font-family: "DM Serif Text", serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(227, 225, 225, 0.391);
+}
+header{
+    display: flex;
+    /* background-color: gold; */
+    justify-content: space-between;
+    /* margin-inline-start: 50px;
+    margin-inline-end: 100px; */
+    align-content: center;
+    align-items: center;
+    min-height: 65px;
+    padding: 8px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: auto;
+    gap: 30px;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+}
+header nav a{
+    /* display: flex; */
+    /* align-content: last baseline; */
+    /* gap: 24px; */
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-weight:600;
+    /* margin-top: 100px; */
+
+}
+.lastBar {
+    /* background-color: deeppink; */
+    width: 300px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 16px;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+}
+.lastBar img {
+    width: 50%;
+    height: auto;
+}
+.lastBar a{
+    text-decoration: none;
+    color: rgb(31, 31, 31);
+    font-weight:600;
+
+}
+
+h1{
+    margin-top: 50px;
+    margin-left: 100px;
+    letter-spacing: 3px;
+}
+
+.wrapper{
+    margin-top: 30px;
+    margin-left: 50px;
+    display: flex;
+    flex-basis: 100vw;
+    
+}
+.item01{
+    /* background-color: salmon; */
+    width: 700px;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    padding: 4px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    background-color: white;
+}
+.item02{
+    /* background-color: salmon; */
+    width: 700px;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    padding: 4px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    background-color: white;
+}
+.itemInfo{
+    /* background-color: antiquewhite; */
+    margin: 20px;
+    margin-right: 80px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: space-between;
+    font-size: 2rem;
+}
+.mockup{
+    display: flex;
+    font-size: 1.5rem;
+    gap: 16px;
+    color: aquamarine;
+    /* padding: 8px; */
+    
+}
+.dotLogo{
+    border: 1px solid aquamarine;
+    font-size: 16px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+select{
+    font-size: 16px;
+    border-color: aliceblue;
+    color: rgba(28, 59, 44, 0.6);
+    font-family: "DM Serif Text", serif;
+    letter-spacing: 4px;
+}
+#binbtn{
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+    border: 1px solid aquamarine;
+    padding: 4px;
+}
+#itempic{
+    width: 40%;
+}
+.cartItem{
+    width: auto;
+    
+}
+
+.paymentSum h1{
+    margin: 0;
+    
+}
+
+.paymentSum{
+    margin-left: 50px;
+    margin-right: 100px;
+    display: block;
+    flex-basis: 600px;
+    align-content: space-around;
+    background-color: white;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#couponpic{
+    width: 5%;
+}
+
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    padding: 4px;
+    font-size: 1.2rem;
+    color: rgb(137, 144, 144);
+    letter-spacing: 2px;
+}
+
+.couponSubmit{
+    flex-basis: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .couponSubmit > input{
+    flex-grow: 1.5;
+} */
+
+#promocode{
+    min-width: 200px;
+    font-size: 1.6rem;
+    border: none;
+    border: 1px solid rgb(215, 215, 215);
+    color: whitesmoke;
+    border-radius: 8px;
+   
+}
+
+::placeholder {
+    color: #c3bebe9d;
+    font-style: italic;
+    opacity: 0.7;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+#submit{
+    flex-grow: 0.5;
+    border: none;
+    border: 2px solid rgb(27, 192, 137);
+    background-color: rgb(251, 251, 251);
+    color: rgb(27, 192, 137);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.lastCheck{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    padding: 4px;
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+.finalprice{
+    color: rgb(27, 192, 137);
+    font-size: 2.5rem;
+}
+button{
+    width: 90%;
+   margin-left: 25px;
+   border: none;
+   border: 2px solid rgb(27, 192, 137);
+   background-color: rgb(27, 192, 137);
+   color: rgb(2, 49, 33);
+   font-size: 1.1rem;
+   font-weight: 600;
+   padding: 12px;
+   border-radius: 8px;
+   
+}
